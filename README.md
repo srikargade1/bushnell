@@ -6,7 +6,6 @@ The first step would be to come up with a program to translate each given french
 The end goal is to input a french text document and come up with a type of file that has an underline under each word, hovering over which we can see what the word means in English. Also for each text document created, we can analyse the sentence structures and add notes for the user on French Grammar and common mistakes to avoid etc etc.
 
 Game plan:
-That sounds like a fantastic and useful application for language learners! Here are some key features and functionalities that could make your app effective:
 
 1. **Text Input and Processing:**
    - Allow users to input French text or upload documents.
@@ -33,7 +32,7 @@ That sounds like a fantastic and useful application for language learners! Here 
    - Track progress and vocabulary.
    - Integration with existing language learning tools (e.g., flashcards, quizzes).
 
-Here's a rough plan for building the app:
+# Rough plan for building the app:
 
 ### 1. Frontend Development
 - Use a framework like React for building the user interface.
@@ -73,4 +72,3 @@ Here's a rough plan for building the app:
 - **APIs:** Google Translate API, or similar translation service
 - **Database:** MongoDB, PostgreSQL, or another suitable database
 
-Would you like more detailed guidance on any specific part of this plan?

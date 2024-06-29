@@ -66,7 +66,6 @@ Game plan:
    - Relevant grammar notes are displayed alongside or after the text.
 
 ### Tools and Technologies:
-
 - **Frontend:** React, HTML, CSS, JavaScript
 - **Backend:** Node.js with Express, or Python with Flask/Django
 - **APIs:** Google Translate API, or similar translation service

@@ -1,0 +1,28 @@
+body
+{
+    text-align: center;
+}
+
+h1
+{
+    color: tomato;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p
+{
+    color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+pre
+{
+    font-family: Helvetica;
+}
+
+.testing-class
+{
+    border: 2px solid black;
+    padding: 30px 30px 20px 20px;
+    margin: 10px;
+}

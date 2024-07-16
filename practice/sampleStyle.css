@@ -3,6 +3,12 @@ body
     text-align: center;
 }
 
+div
+{
+    padding: 30px;
+    display: inline-block;
+}
+
 h1
 {
     color: tomato;
@@ -26,4 +32,34 @@ pre
     border: 2px solid black;
     padding: 30px 30px 20px 20px;
     margin: 10px;
+}
+
+.language-div{
+    width: 33%;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: 20px;
+}
+
+.fr {
+    background-image: url("fr.jpg");
+    color: tomato;
+}
+
+.es {
+    background-image: url("esp.jpg");
+    color: aquamarine;
+}
+
+.gr {
+    background-image: url("gr.jpg");
+    color: white;
+}
+
+.main-div{
+    margin-right:20px;
+    width : 100%;
+    display: flex;
 }

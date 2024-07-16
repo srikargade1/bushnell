@@ -30,9 +30,9 @@
 
     <div class = "main-div">
         <div class = "language-div fr">
-            <h3>French</h3>
-            <p>This is for testing div block.</p>
-            <p>Let us see how it works out.</p>
+            <h3 id = "fr">French</h3>
+            <p id = "fr-p1">This is for testing div block.</p>
+            <p id = "fr-p2">Let us see how it works out.</p>
         </div>
         <div class = "language-div es">
             <h3>Spanish</h3>
@@ -48,3 +48,9 @@
     <hr>
     <button onclick="document.location='sample.html'">Home Page</button>
 </body>
+
+<script>
+    document.getElementById("fr").innerHTML = "Francais";
+    document.getElementById("fr-p1").innerHTML = "C'est pour tester le bloc div";
+    document.getElementById("fr-p2").innerHTML = "Voyons comment cela fonctionne.";
+</script>

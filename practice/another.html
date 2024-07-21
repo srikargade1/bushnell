@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>About - Bushnell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "sampleStyle.css">
 </head>
 <body>
@@ -46,11 +47,17 @@
         </div>
     </div>
     <hr>
-    <button onclick="document.location='sample.html'">Home Page</button>
+
+    <div class="main-div">
+        <p>Displaying entities like the euro symbol &euro;  for all symbol &#8704;</p>
+    </div>
+    <hr>
+
+    <button class="sample-button" onclick="document.location='sample.html'">Home Page</button>
 </body>
 
 <script>
-    document.getElementById("fr").innerHTML = "Francais";
+    document.getElementById("fr").innerHTML = "Francais &#128508;";
     document.getElementById("fr-p1").innerHTML = "C'est pour tester le bloc div";
     document.getElementById("fr-p2").innerHTML = "Voyons comment cela fonctionne.";
 </script>

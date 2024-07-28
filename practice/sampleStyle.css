@@ -27,6 +27,16 @@ pre
     font-family: Helvetica;
 }
 
+a:hover, a:active 
+{
+    color:pink;
+}
+
+a:visited
+{
+    color: red;
+}
+
 .testing-class
 {
     border: 2px solid black;
